@@ -18,7 +18,7 @@ Content-Type: application/json
 {
   "mt": "1-1",
   "st": "1-1-1",
-  "name": "",
+  "name": "测试抽取方法",
   "pic": "abc",
   "teachmode": "200002",
   "users": "初级人员",
@@ -26,7 +26,7 @@ Content-Type: application/json
   "grade": "204001",
   "description": "测试课程之课程介绍",
   "charge": "201001",
-  "price": 0,
+  "price": 0.1,
   "originalPrice": 100,
   "qq": "9074",
   "wechat": "9074",
@@ -36,7 +36,7 @@ Content-Type: application/json
 
 
 ### 根据课程id查询信息接口
-GET {{content_host}}/content/course/40
+GET {{content_host}}/content/course/129
 Content-Type: application/json
 
 ### 修改课程
@@ -56,5 +56,5 @@ Content-Type: application/json
   "description": "课程系统性地深度探讨 Spring Boot 核心特性，引导小伙伴对 Java 规范的重视，启发对技术原理性的思考，掌握排查问题的技能，以及学习阅读源码的方法和技巧，全面提升研发能力，进军架构师队伍。",
   "pic": "https://cdn.educba.com/academy/wp-content/uploads/2018/08/Spring-BOOT-Interview-questions.jpg",
   "charge": "201001",
-  "price": 0.01
+  "price": 1000
 }

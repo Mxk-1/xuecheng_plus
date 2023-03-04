@@ -45,6 +45,9 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
     @Autowired
     CourseCategoryMapper courseCategoryMapper;
 
+    @Autowired
+    CourseMarketServiceImpl courseMarketService;
+
     /***
      * @description 获取所有的课程信息并分页显示
      * @param pageParams 分页信息
@@ -157,16 +160,18 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         courseMarket.setId(courseId);
 
         // 如果课程为收费，价格必须输入
-        String charge = dto.getCharge();
+/*         String charge = dto.getCharge();
         if (charge.equals("201001")) { // 收费 输入价格且大于零
             if (courseMarket.getCharge() == null || courseMarket.getPrice().floatValue() <= 0) {
                 // throw new RuntimeException("课程收费，价格不能为空，且必须大于0");
                 XueChengPlusException.cast("课程收费，价格不能为空，且必须大于0");
             }
-        }
+        } */
+
+        int insert1 = saveCourseMarket(courseMarket);
 
         // 课程营销表插入一条记录
-        int insert1 = courseMarketMapper.insert(courseMarket);
+        // int insert1 = courseMarketMapper.insert(courseMarket);
 
         if (insert <= 0 || insert1 <= 0) {
             throw new RuntimeException("添加课程失败");
@@ -231,11 +236,76 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
      * @author MXK
      * @date 2023/3/4 16:56
      */
+    @Transactional
     @Override
     public CourseBaseInfoDto updateCourseBase(Long companyId, EditCourseDto dto) {
-        return null;
+
+        // 课程id
+        Long courseId = dto.getId();
+        // 根据课程id查询课程信息
+        CourseBase courseBase_u = courseBaseMapper.selectById(courseId);
+        if (!companyId.equals(courseBase_u.getCompanyId())) {
+            XueChengPlusException.cast("只允许修改本机构课程！！！");
+        }
+        // 复制属性到EditCourseDto
+        BeanUtils.copyProperties(dto, courseBase_u);
+
+        // 更新
+        // 更新修改时间
+        courseBase_u.setChangeDate(LocalDateTime.now());
+        // 更新到数据库中
+        int i = courseBaseMapper.updateById(courseBase_u);
+
+        // 查询营销信息
+        CourseMarket courseMarket = courseMarketMapper.selectById(courseId);
+        if (courseMarket == null) {
+            courseMarket = new CourseMarket();
+        }
+
+/*         // 查询是否收费
+        String charge = dto.getCharge();
+        if (charge.equals("201001")) {
+            Float price = dto.getPrice();
+            if (price == null || price.floatValue() <= 0) {
+                XueChengPlusException.cast("课程设置了收费价格不能为空且必须大于0");
+            }
+        } */
+
+        // 将dto中的课程营销信息拷贝值courseMarket对象中
+        BeanUtils.copyProperties(dto, courseMarket);
+
+        int isSaved = saveCourseMarket(courseMarket);
+        // 1为保存成功，-1为保存失败
+        log.info(String.valueOf(isSaved));
+        // System.out.println(isSaved);
+
+        // boolean save = courseMarketService.saveOrUpdate(courseMarket);
+
+        return getCourseBaseInfo(courseId);
     }
 
+    /***
+     * @description 抽取课程营销校验及保存功能
+     * @param courseMarket
+     * @return int
+     * @author MXK
+     * @date 2023/3/4 18:18
+     */
+    private int saveCourseMarket(CourseMarket courseMarket) {
+        String charge = courseMarket.getCharge();
+        if (StringUtils.isBlank(charge)) {
+            XueChengPlusException.cast("请设置收费规则");
+        }
+        if (charge.equals("201001")) {
+            Float price = courseMarket.getPrice();
+            if (price == null || price.floatValue() <= 0) {
+                XueChengPlusException.cast("课程设置了收费价格不能为空并且必须大于零");
+            }
+        }
+        boolean b = courseMarketService.saveOrUpdate(courseMarket);
+
+        return b ? 1 : -1;
+    }
 
 }
 

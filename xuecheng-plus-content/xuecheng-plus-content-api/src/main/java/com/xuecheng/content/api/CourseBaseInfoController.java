@@ -65,8 +65,9 @@ public class CourseBaseInfoController {
 
     @ApiOperation("修改课程基础信息")
     @PutMapping("/course")
-    public CourseBaseInfoDto modifyCourseBase(EditCourseDto editCourseDto) {
-        return null;
+    public CourseBaseInfoDto modifyCourseBase(@RequestBody @Validated EditCourseDto editCourseDto) {
+        Long companyId = 1232141425L;
+        return courseBaseInfoService.updateCourseBase(companyId, editCourseDto);
     }
 
 }
