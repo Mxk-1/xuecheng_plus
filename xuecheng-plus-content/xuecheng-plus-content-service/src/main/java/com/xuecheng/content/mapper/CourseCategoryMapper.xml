@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xuecheng.content.mapper.CourseCategoryMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xuecheng.content.model.po.CourseCategory">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="label" property="label"/>
+        <result column="parentid" property="parentid"/>
+        <result column="is_show" property="isShow"/>
+        <result column="orderby" property="orderby"/>
+        <result column="is_leaf" property="isLeaf"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id
+        , name, label, parentid, is_show, orderby, is_leaf
+    </sql>
+
+    <!-- 课程分类树型结构查询映射结果 -->
+    <!--    <resultMap id="treeNodeResultMap" type="com.xuecheng.content.model.dto.CourseCategoryTreeDto">-->
+    <!--        &lt;!&ndash; 一级数据映射 &ndash;&gt;-->
+    <!--        <id column="one_id" property="id"/>-->
+    <!--        <result column="one_name" property="name"/>-->
+    <!--        <result column="one_label" property="label"/>-->
+    <!--        <result column="one_parentid" property="parentid"/>-->
+    <!--        <result column="one_orderby" property="orderby"/>-->
+    <!--        &lt;!&ndash; 一级中包含多个二级数据：二级的集合数据 &ndash;&gt;-->
+    <!--        <collection property="childrenTreeNodes" ofType="com.xuecheng.content.model.dto.CourseCategoryTreeDto">-->
+    <!--            &lt;!&ndash; 二级数据映射 &ndash;&gt;-->
+    <!--            <id column="two_id" property="id"/>-->
+    <!--            <result column="two_name" property="name"/>-->
+    <!--            <result column="two_label" property="label"/>-->
+    <!--            <result column="two_parentid" property="parentid"/>-->
+    <!--            <result column="two_orderby" property="orderby"/>-->
+    <!--        </collection>-->
+    <!--    </resultMap>-->
+
+    <select id="selectTreeNodes" parameterType="String"
+            resultType="com.xuecheng.content.model.dto.CourseCategoryTreeDto">
+        with recursive t1 as (select p.*
+                              from course_category p
+                              where p.id = #{id}
+                              union all
+                              select p1.*
+                              from course_category p1
+                                       inner join t1 on t1.id = p1.parentid)
+        select *
+        from t1
+        order by t1.id
+    </select>
+
+
+</mapper>

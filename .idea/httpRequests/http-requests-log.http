@@ -1,0 +1,819 @@
+GET http://localhost:63040/content/course/40
+Content-Type: application/json
+
+<> 2023-03-04T165145.200.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "abc",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 0,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-04T162745.400.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "abc",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 0,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-04T161447.400.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "abc",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 0,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-04T161353.400.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "abc",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 0,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-04T160855.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 0,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-04T155042.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 0,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-04T154720.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 0,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-04T154709.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 0,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-04T154621.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 0,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-04T154125.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 0,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-04T153319.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 0,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-04T153136.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 0,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-04T152724.404.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 0,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-04T152703.404.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 0,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-03T233122.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 0,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-03T232857.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 0,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-03T232800.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "测试课程_001",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 0,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-03T170630.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "测试课程_001",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 10,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-03T164410.200.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "测试课程_001",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 10,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-03T164302.200.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "测试课程_001",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 10,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-03T164233.200.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "测试课程_001",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "测试标签",
+  "grade": "204001",
+  "description": "测试课程之课程介绍",
+  "charge": "201001",
+  "price": 10,
+  "originalPrice": 100,
+  "qq": "9074",
+  "wechat": "9074",
+  "phone": "9074",
+  "validDays": 365
+}
+
+<> 2023-03-03T164124.200.json
+
+###
+
+GET http://localhost:63040/content/course-category/tree-nodes
+
+<> 2023-02-28T154001.200.json
+
+###
+
+POST http://localhost:63040/content/course/list?pageNo=1&pageSize=10
+Content-Type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": ""
+}
+
+<> 2023-02-28T153953.200.json
+
+###
+
+GET http://localhost:63040/content/content/course-category/tree-nodes
+
+<> 2023-02-28T153919.404.json
+
+###
+
+POST http://localhost:63040/content/course/list?pageNo=1&pageSize=10
+Content-Type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": ""
+}
+
+###
+
+POST http://localhost:63040/content/course/list?pageNo=1&pageSize=10
+Content-Type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": ""
+}
+
+<> 2023-02-27T204854.200.json
+
+###
+
+POST http://localhost:63040/content/course/list?pageNo=1&pageSize=10
+Content-Type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": ""
+}
+
+<> 2023-02-27T204844.200.json
+
+###
+
+POST http://localhost:63040/content/course/list?pageNo=1&pageSize=10
+Content-Type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": ""
+}
+
+<> 2023-02-27T204823.200.json
+
+###
+
+POST http://localhost:63040/content/course/list?pageNo=1&pageSize=10
+Content-Type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": ""
+}
+
+<> 2023-02-27T204808.200.json
+
+###
+
+POST http://localhost:63040/content/course/list?pageNo=1&pageSize=10
+Content-Type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "java"
+}
+
+<> 2023-02-27T204653.200.json
+
+###
+
+POST http://localhost:63040/content/course/list?pageNo=1&pageSize=10
+Content-Type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "java"
+}
+
+<> 2023-02-27T204649.200.json
+
+###
+
+POST http://localhost:63040/content/course/list?pageNo=1&pageSize=10
+Content-Type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "java"
+}
+
+<> 2023-02-27T204634.200.json
+
+###
+
+POST http://localhost:63040/course/list?pageNo=1&pageSize=10
+Content-Type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "java"
+}
+
+<> 2023-02-27T204611.404.html
+
+###
+
+POST http://localhost:63040/course/list?pageNo=1&pageSize=10
+Content-Type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "java"
+}
+
+<> 2023-02-27T204602.404.html
+
+###
+
+POST http://localhost:63040/content/course/list?pageNo=1&pageSize=10
+Content-Type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "java"
+}
+
+<> 2023-02-27T204330.200.json
+
+###
+
+POST http://localhost:63040/content/course/list?pageNo=1&pageSize=10
+Content-Type: application/json
+
+{
+  "auditStatus": "202002",
+  "courseName": "java"
+}
+
+<> 2023-02-27T204320.200.json
+
+###
+
+POST http://localhost:63040/content/course/list?pageNo=1&pageSize=10
+Content-Type: application/json
+
+{
+  "auditStatus": "202002",
+  "courseName": ""
+}
+
+<> 2023-02-27T204306.200.json
+
+###
+
+POST http://localhost:63040/content/course/list?pageNo=1&pageSize=10
+Content-Type: application/json
+
+{
+  "auditStatus": "202002",
+  "courseName": ""
+}
+
+<> 2023-02-27T204214.200.json
+
+###
+
+POST http://localhost:63040/course/list?pageNo=1&pageSize=10
+Content-Type: application/json
+
+{
+  "auditStatus": "202002",
+  "courseName": ""
+}
+
+<> 2023-02-27T204051.404.html
+
+###
+
+POST http://localhost:63040/course/list?pageNo=1&pageSize=10
+
+<> 2023-02-27T203930.404.html
+
+###
+
+POST http://localhost:63040/course/list?pageNo=1&pageSize=10
+
+###
+
+POST http://localhost:63040/course/list
+
+<> 2023-02-27T203548.404.html
+
+###
+
+POST http://localhost:63040/course/list
+
+<> 2023-02-27T203529.404.html
+
+###
+
+POST http://localhost:63040/course/list
+
+<> 2023-02-27T203525.404.html
+
+###
+
+POST http://localhost:63040/course/list
+
+<> 2023-02-27T203322.404.html
+
+###
+
+POST http://localhost:63040/course/list?pageNo=1&pageSize=3
+
+<> 2023-02-27T203139.404.html
+
+###
+
+POST http://localhost:63040/course/list?pageNo=1&pageSize=3
+
+<> 2023-02-27T203110.404.html
+
+###
+
+POST http://localhost:63040/course/list?pageNo=1&pageSize=3
+
+<> 2023-02-27T203103.404.html
+
+###
+
+POST http://localhost:63040/course/list?pageNo=1&pageSize=3
+
+<> 2023-02-27T203049.404.html
+
+###
+

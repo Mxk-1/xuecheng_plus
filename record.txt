@@ -1,0 +1,7 @@
+P38中间看
+
+连接虚拟机前的配置
+启动docker命令
+systemctl start docker
+执行启动脚本
+sh /data/soft/restart.sh
