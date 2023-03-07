@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c9444f6-0671-4de3-aa5c-b8360dbd37d6" name="Changes" comment="添加修改功能完成并抽取课程营销校验及保存功能">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-02-27T203930.404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-02-27T204051.404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-02-27T204214.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-02-27T204306.200.json" beforeDir="false" />
+    <list default="true" id="5c9444f6-0671-4de3-aa5c-b8360dbd37d6" name="Changes" comment="新增、修改课程计划完成">
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-02-27T204320.200.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/xc-content-api.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-test/xc-content-api.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/TeachplanMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/TeachplanMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/TeachplanMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/TeachplanMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/target/classes/com/xuecheng/content/mapper/TeachplanMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/target/classes/com/xuecheng/content/mapper/TeachplanMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/target/classes/com/xuecheng/content/mapper/TeachplanMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/target/classes/com/xuecheng/content/mapper/TeachplanMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/record.txt" beforeDir="false" afterPath="$PROJECT_DIR$/record.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/config/LocalDateTimeConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/config/LocalDateTimeConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/CourseBaseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/CourseBaseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/target/classes/com/xuecheng/content/mapper/CourseBaseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/target/classes/com/xuecheng/content/mapper/CourseBaseMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,27 +75,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_directory_selection": "D:/JavaLearning/xuecheng_online/xuecheng-plus/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content",
-    "last_opened_file_path": "D:/JavaLearning/xuecheng_online/xuecheng-plus/xuecheng-plus-base/src/main/java/com/xuecheng/base/exception",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "rest.client.default.execution.environment": "dev",
-    "settings.editor.selected.configurable": "terminal",
-    "spring.configuration.checksum": "5b5a438955058d3e3d6344181a327cbd"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/JavaLearning/xuecheng_online/xuecheng-plus/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaLearning/xuecheng_online/xuecheng-plus/xuecheng-plus-base/src/main/java/com/xuecheng/base/exception&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;rest.client.default.execution.environment&quot;: &quot;dev&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5b5a438955058d3e3d6344181a327cbd&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaLearning\xuecheng_online\xuecheng-plus\xuecheng-plus-base\src\main\java\com\xuecheng\base\exception" />
@@ -125,7 +121,7 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="HTTP Request.xc-content-api | 课程课程计划,需要从数据库找到修改的课程计划id">
+  <component name="RunManager" selected="HTTP Request.xc-content-api | 查询某个课程的课程计划">
     <configuration name="xc-content-api | 新增课程计划--章" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" index="7" requestIdentifier="新增课程计划--章" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -217,10 +213,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ContentApplication" />
+        <item itemvalue="HTTP Request.xc-content-api | 查询某个课程的课程计划" />
         <item itemvalue="HTTP Request.xc-content-api | 课程课程计划,需要从数据库找到修改的课程计划id" />
         <item itemvalue="HTTP Request.xc-content-api | 新增课程计划--节,从数据库找到第一级的课程计划id向其下边添加计划" />
         <item itemvalue="HTTP Request.xc-content-api | 新增课程计划--章" />
-        <item itemvalue="HTTP Request.xc-content-api | 查询某个课程的课程计划" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +245,16 @@
       <workItem from="1677677860751" duration="5290000" />
       <workItem from="1677747894488" duration="10000" />
       <workItem from="1677750085357" duration="35000" />
-      <workItem from="1677809103251" duration="32719000" />
+      <workItem from="1677809103251" duration="33629000" />
+      <workItem from="1678069691641" duration="194000" />
+      <workItem from="1678069904826" duration="6000" />
+      <workItem from="1678070045876" duration="28000" />
+      <workItem from="1678070215140" duration="370000" />
+      <workItem from="1678070713246" duration="23000" />
+      <workItem from="1678070940354" duration="340000" />
+      <workItem from="1678111828298" duration="23000" />
+      <workItem from="1678115262516" duration="1212000" />
+      <workItem from="1678159863856" duration="460000" />
     </task>
     <task id="LOCAL-00001" summary="提交父工程和基础工程的基础代码(pom.xml)">
       <created>1677121462872</created>
@@ -279,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677925774621</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="新增、修改课程计划完成">
+      <created>1677934719098</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677934719098</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +352,8 @@
     <MESSAGE value="修改课程接口1完成" />
     <MESSAGE value="添加README.md" />
     <MESSAGE value="添加修改功能完成并抽取课程营销校验及保存功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加修改功能完成并抽取课程营销校验及保存功能" />
+    <MESSAGE value="新增、修改课程计划完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增、修改课程计划完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

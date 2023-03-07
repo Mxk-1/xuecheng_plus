@@ -13,7 +13,7 @@ import java.time.format.DateTimeFormatter;
 /**
  * @author MXK
  * @version 1.0
- * @description TODO
+ * @description 时间序列化器
  * @date 2023/2/24 22:24
  */
 @Configuration
